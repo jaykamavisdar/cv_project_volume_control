@@ -1,0 +1,14 @@
+# Gesture-Based Volume Control – Python dependencies
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+# Windows only – system volume control via Windows Core Audio API
+# Uncomment the line below if you are on Windows:
+# pycaw>=20240313
+# comtypes>=1.4.1
+
+# Linux: uses 'amixer' (part of alsa-utils) — no extra Python package needed
+# macOS: uses 'osascript' — no extra Python package needed
